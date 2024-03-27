@@ -134,6 +134,10 @@ main section:nth-child(2) {
 
 main section:nth-child(3) {
 
+    a {
+        color: black;
+    }
+
     .thumbnail {
         background-color: var(--foreground-color);
         border-radius: 0.5em 0.5em 0em 0em;
