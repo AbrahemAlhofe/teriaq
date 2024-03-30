@@ -83,12 +83,6 @@ main section:first-child {
         margin: 0;
     }
     
-    p {
-        font-size: 3vw;
-        flex-grow: 1;
-        padding-right: 1em;
-    }
-
     @media (width >= 768px) {
 
         width: 75vw;
@@ -127,6 +121,17 @@ main section:first-child {
                 width: 15vw;
             }
             
+        }
+
+    }
+
+    .slide__body {
+        font-size: 5vw;
+        flex-grow: 1;
+        padding-right: 1em;
+
+        @media (width >= 768px) {
+            font-size: 2.5vw;            
         }
 
     }
@@ -170,7 +175,7 @@ main section#milestones {
         left: 5em;
         z-index: 1;
 
-        &:nth-child(3) {
+        &:nth-child(4) {
 
             time {
                 background-color: gray;                
@@ -178,7 +183,7 @@ main section#milestones {
 
         }
 
-        &:nth-child(4) {
+        &:nth-child(5) {
 
             margin-top: calc(4.5em * 6);
             time {
